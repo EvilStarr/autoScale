@@ -71,7 +71,7 @@
 pipeline{
     agent any
     tools {
-        jfrog 'jfrog-cli-remote'
+        jfrog 'tf3-terraform-modules-local'
     }
     stages {
         stage ('Testing') {
