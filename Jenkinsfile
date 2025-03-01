@@ -80,9 +80,9 @@ pipeline{
                 jf 'c show'
                 jf 'rt ping'
                 sh 'touch test-file'
-                jf 'rt u test-file tf3-terraform/'
+                jf 'rt u test-file jfrog-cli/'
                 jf 'rt bp'
-                jf 'rt dl tf3-terraform/test-file'
+                jf 'rt dl jfrog-cli/test-file'
             }
         } 
     }
